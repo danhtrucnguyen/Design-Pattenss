@@ -1,4 +1,5 @@
-﻿using System.Collections.Concurrent;
+﻿using Microsoft.Extensions.Hosting;
+using System.Collections.Concurrent;
 
 namespace WebApplication1.CretionalPatterns.Singleton
 {
@@ -26,3 +27,26 @@ namespace WebApplication1.CretionalPatterns.Singleton
         public string[] GetLogs() => Snapshot();
     }
 }
+
+//GET http://localhost:5102/api/singleton/demo
+//POST http://localhost:5102/api/singleton/run
+
+/*
+[
+  {
+    "prefix": "Batch#1",
+    "messages": [
+      "Thong bao tu Logger 1",
+      "Thong bao tu Logger 2"
+    ]
+  },
+  {
+    "prefix": "Batch#2",
+    "messages": [
+      "User clicked button",
+      "Order submitted",
+      "Payment succeeded"
+    ]
+  }
+]
+*/
