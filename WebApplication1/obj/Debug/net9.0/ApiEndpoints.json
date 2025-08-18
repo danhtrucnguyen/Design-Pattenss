@@ -156,6 +156,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "WebApplication1.Controllers.FactoryMethodController",
+    "Method": "Demo",
+    "RelativePath": "api/FactoryMethod/demo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication1.Controllers.FactoryMethodController",
+    "Method": "Pay",
+    "RelativePath": "api/FactoryMethod/pay",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jobs",
+        "Type": "System.Collections.Generic.List\u00601[[WebApplication1.CretionalPatterns.FactoryMethod.PaymentJobDto, WebApplication1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebApplication1.Controllers.FlyweightController",
     "Method": "Demo",
     "RelativePath": "api/Flyweight/demo",
