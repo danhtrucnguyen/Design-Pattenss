@@ -234,6 +234,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "WebApplication1.Controllers.PrototypeController",
+    "Method": "Clone",
+    "RelativePath": "api/Prototype/clone",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jobs",
+        "Type": "System.Collections.Generic.List\u00601[[WebApplication1.CretionalPatterns.Prototype.PrototypeJobDto, WebApplication1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication1.Controllers.PrototypeController",
+    "Method": "Demo",
+    "RelativePath": "api/Prototype/demo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebApplication1.Controllers.ProxyController",
     "Method": "Demo",
     "RelativePath": "api/Proxy/demo",
