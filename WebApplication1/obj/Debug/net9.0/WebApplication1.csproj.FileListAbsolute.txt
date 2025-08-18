@@ -34,3 +34,4 @@ C:\Users\Admin\source\repos\Design Patternss\WebApplication1\obj\Debug\net9.0\re
 C:\Users\Admin\source\repos\Design Patternss\WebApplication1\obj\Debug\net9.0\WebApplication1.pdb
 C:\Users\Admin\source\repos\Design Patternss\WebApplication1\obj\Debug\net9.0\WebApplication1.genruntimeconfig.cache
 C:\Users\Admin\source\repos\Design Patternss\WebApplication1\obj\Debug\net9.0\ref\WebApplication1.dll
+C:\Users\Admin\source\repos\Design Patternss\WebApplication1\obj\Debug\net9.0\WebApplication1.sourcelink.json

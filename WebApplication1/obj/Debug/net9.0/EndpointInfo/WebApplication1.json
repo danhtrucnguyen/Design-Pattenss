@@ -369,6 +369,58 @@
         }
       }
     },
+    "/api/Singleton/run": {
+      "post": {
+        "tags": [
+          "Singleton"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/LogJobDto"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/LogJobDto"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/LogJobDto"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Singleton/demo": {
+      "get": {
+        "tags": [
+          "Singleton"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/WeatherForecast": {
       "get": {
         "tags": [
@@ -603,6 +655,23 @@
             "items": {
               "$ref": "#/components/schemas/InventoryCommandDto"
             },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LogJobDto": {
+        "type": "object",
+        "properties": {
+          "messages": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "prefix": {
+            "type": "string",
             "nullable": true
           }
         },
