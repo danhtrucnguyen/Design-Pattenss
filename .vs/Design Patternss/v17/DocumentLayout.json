@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|c:\\users\\admin\\source\\repos\\design patternss\\webapplication1\\cretionalpatterns\\factorymethod\\factorymethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\cretionalpatterns\\factorymethod\\factorymethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|c:\\users\\admin\\source\\repos\\design patternss\\webapplication1\\cretionalpatterns\\abstract factory\\abstract factoryexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\cretionalpatterns\\abstract factory\\abstract factoryexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|c:\\users\\admin\\source\\repos\\design patternss\\webapplication1\\controllers\\factorymethodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\factorymethodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|c:\\users\\admin\\source\\repos\\design patternss\\webapplication1\\controllers\\abstractfactorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\abstractfactorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|c:\\users\\admin\\source\\repos\\design patternss\\webapplication1\\cretionalpatterns\\factorymethod\\factorymethodexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\cretionalpatterns\\factorymethod\\factorymethodexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|c:\\users\\admin\\source\\repos\\design patternss\\webapplication1\\cretionalpatterns\\abstract factory\\abstract factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\cretionalpatterns\\abstract factory\\abstract factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|c:\\users\\admin\\source\\repos\\design patternss\\webapplication1\\controllers\\buildercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\buildercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,40 +34,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FactoryMethodExample.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\CretionalPatterns\\FactoryMethod\\FactoryMethodExample.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\CretionalPatterns\\FactoryMethod\\FactoryMethodExample.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\CretionalPatterns\\FactoryMethod\\FactoryMethodExample.cs",
-              "RelativeToolTip": "WebApplication1\\CretionalPatterns\\FactoryMethod\\FactoryMethodExample.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAAAEgAAAACAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "BuilderController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\Controllers\\BuilderController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\BuilderController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\Controllers\\BuilderController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\BuilderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T06:39:35.77Z"
+              "WhenOpened": "2025-08-18T07:20:47.734Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FactoryMethod.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\CretionalPatterns\\FactoryMethod\\FactoryMethod.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\CretionalPatterns\\FactoryMethod\\FactoryMethod.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\CretionalPatterns\\FactoryMethod\\FactoryMethod.cs",
-              "RelativeToolTip": "WebApplication1\\CretionalPatterns\\FactoryMethod\\FactoryMethod.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAiwEAAAAAyAAAAAAAAAA==",
+              "Title": "Abstract FactoryExample.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\CretionalPatterns\\Abstract Factory\\Abstract FactoryExample.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\CretionalPatterns\\Abstract Factory\\Abstract FactoryExample.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\CretionalPatterns\\Abstract Factory\\Abstract FactoryExample.cs",
+              "RelativeToolTip": "WebApplication1\\CretionalPatterns\\Abstract Factory\\Abstract FactoryExample.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T06:39:05.058Z",
+              "WhenOpened": "2025-08-18T07:17:51.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Abstract Factory.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\CretionalPatterns\\Abstract Factory\\Abstract Factory.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\CretionalPatterns\\Abstract Factory\\Abstract Factory.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\CretionalPatterns\\Abstract Factory\\Abstract Factory.cs",
+              "RelativeToolTip": "WebApplication1\\CretionalPatterns\\Abstract Factory\\Abstract Factory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T07:13:09.403Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FactoryMethodController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\Controllers\\FactoryMethodController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\FactoryMethodController.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\Controllers\\FactoryMethodController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\FactoryMethodController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwAYAAAAMAAAAAAAAAA==",
+              "Title": "AbstractFactoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\Controllers\\AbstractFactoryController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\AbstractFactoryController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\Controllers\\AbstractFactoryController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\AbstractFactoryController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAAAwAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T06:37:13.321Z",
+              "WhenOpened": "2025-08-18T07:12:49.9Z",
               "EditorCaption": ""
             }
           ]

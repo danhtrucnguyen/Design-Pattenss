@@ -1,5 +1,31 @@
 [
   {
+    "ContainingType": "WebApplication1.Controllers.AbstractFactoryController",
+    "Method": "Demo",
+    "RelativePath": "api/AbstractFactory/demo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication1.Controllers.AbstractFactoryController",
+    "Method": "Pay",
+    "RelativePath": "api/AbstractFactory/pay",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jobs",
+        "Type": "System.Collections.Generic.List\u00601[[WebApplication1.CretionalPatterns.AbstractFactory.PaymentJobDto, WebApplication1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebApplication1.Controllers.AdapterController",
     "Method": "Demo",
     "RelativePath": "api/Adapter/demo",
