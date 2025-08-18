@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Extensions.Hosting;
+using System;
 
 namespace WebApplication1.CretionalPatterns.FactoryMethod
 {
@@ -60,3 +61,15 @@ namespace WebApplication1.CretionalPatterns.FactoryMethod
     public sealed class PaypalCheckout : CheckoutPayment { protected override IPaymentProcessor CreateProcessor() => new PaypalProcessor(); }
     public sealed class MomoCheckout : CheckoutPayment { protected override IPaymentProcessor CreateProcessor() => new MomoProcessor(); }
 }
+
+//GET http://localhost:5102/api/factorymethod/demo
+//POST http://localhost:5102/api/factorymethod/pay
+
+/*
+ [
+  { "provider": "visa",   "amount": 200,     "currency": "USD" },
+  { "provider": "paypal", "amount": 500000,  "currency": "VND" },
+  { "provider": "momo",   "amount": -1,      "currency": "USD" },
+  { "provider": "zalo",   "amount": 10,      "currency": "VND" }
+]
+*/
