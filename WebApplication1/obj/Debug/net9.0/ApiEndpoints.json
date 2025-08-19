@@ -234,6 +234,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "WebApplication1.Controllers.InterpreterController",
+    "Method": "Demo",
+    "RelativePath": "api/Interpreter/demo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication1.Controllers.InterpreterController",
+    "Method": "Parse",
+    "RelativePath": "api/Interpreter/parse",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "job",
+        "Type": "WebApplication1.BehavioralPatterns.Interpreter.InterpreterJobDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebApplication1.Controllers.PrototypeController",
     "Method": "Clone",
     "RelativePath": "api/Prototype/clone",
