@@ -3,7 +3,6 @@ using System.Collections.Generic;
 
 namespace WebApplication1.BehavioralPatterns.Interpreter
 {
-    // ----------------- INTERPRETER (ROMAN NUMERALS) -----------------
     // Context: giữ chuỗi Input còn lại và Output đã tính.
     public sealed class RomanContext
     {
