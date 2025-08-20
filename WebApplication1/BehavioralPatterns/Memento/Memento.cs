@@ -4,12 +4,11 @@ using System.Linq;
 
 namespace WebApplication1.BehavioralPatterns.Memento
 {
-    // ===================== MEMENTO (Cart Snapshot) =====================
     // Originator: Cart — có Save() tạo snapshot và Restore() để khôi phục.
     // Memento:    CartSnapshot — trạng thái bất biến của Cart (items, coupon, discount).
     // Caretaker:  CartHistory — giữ stack undo/redo, không can thiệp chi tiết Cart.
 
-    // ---------- Originator ----------
+    //Originator
     public sealed class Cart
     {
         private readonly Dictionary<string, (int qty, decimal price)> _lines =
@@ -57,7 +56,7 @@ namespace WebApplication1.BehavioralPatterns.Memento
         public decimal Discount => Math.Round(Subtotal * DiscountPercent, 2, MidpointRounding.AwayFromZero);
         public decimal Total => Subtotal - Discount;
 
-        // ---- Memento API ----
+        //Memento API
         public ICartMemento Save(string note = "")
         {
             var items = _lines.Select(kv => new CartLine(kv.Key, kv.Value.qty, kv.Value.price)).ToList();
@@ -75,7 +74,7 @@ namespace WebApplication1.BehavioralPatterns.Memento
         }
     }
 
-    // ---------- Memento ----------
+    //Memento
     public interface ICartMemento
     {
         string Note { get; }
@@ -92,7 +91,7 @@ namespace WebApplication1.BehavioralPatterns.Memento
         DateTime At
     ) : ICartMemento;
 
-    // ---------- Caretaker ----------
+    //Caretaker
     public sealed class CartHistory
     {
         private readonly Stack<ICartMemento> _undo = new();
