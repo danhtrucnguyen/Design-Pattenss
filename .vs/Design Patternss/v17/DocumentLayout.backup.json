@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|c:\\users\\admin\\source\\repos\\design patternss\\webapplication1\\behavioralpatterns\\template method\\templatemethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\behavioralpatterns\\template method\\templatemethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|c:\\users\\admin\\source\\repos\\design patternss\\webapplication1\\controllers\\chainofresponsibilitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\chainofresponsibilitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|c:\\users\\admin\\source\\repos\\design patternss\\webapplication1\\behavioralpatterns\\template method\\templatemethodexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\behavioralpatterns\\template method\\templatemethodexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|c:\\users\\admin\\source\\repos\\design patternss\\webapplication1\\behavioralpatterns\\chain of responsibility\\chainofresponsibility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\behavioralpatterns\\chain of responsibility\\chainofresponsibility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|c:\\users\\admin\\source\\repos\\design patternss\\webapplication1\\controllers\\templatemethodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\templatemethodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|c:\\users\\admin\\source\\repos\\design patternss\\webapplication1\\behavioralpatterns\\chain of responsibility\\chainofresponsibilityexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\behavioralpatterns\\chain of responsibility\\chainofresponsibilityexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,40 +31,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "TemplateMethodController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\Controllers\\TemplateMethodController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\TemplateMethodController.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\Controllers\\TemplateMethodController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\TemplateMethodController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA3AAAAAAAAAA==",
+              "Title": "ChainofResponsibilityExample.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\BehavioralPatterns\\Chain of Responsibility\\ChainofResponsibilityExample.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\BehavioralPatterns\\Chain of Responsibility\\ChainofResponsibilityExample.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\BehavioralPatterns\\Chain of Responsibility\\ChainofResponsibilityExample.cs",
+              "RelativeToolTip": "WebApplication1\\BehavioralPatterns\\Chain of Responsibility\\ChainofResponsibilityExample.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAswDYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T07:51:50.899Z",
+              "WhenOpened": "2025-08-19T09:23:09.65Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TemplateMethodExample.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\BehavioralPatterns\\Template Method\\TemplateMethodExample.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\BehavioralPatterns\\Template Method\\TemplateMethodExample.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\BehavioralPatterns\\Template Method\\TemplateMethodExample.cs",
-              "RelativeToolTip": "WebApplication1\\BehavioralPatterns\\Template Method\\TemplateMethodExample.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
+              "Title": "ChainofResponsibility.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\BehavioralPatterns\\Chain of Responsibility\\ChainofResponsibility.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\BehavioralPatterns\\Chain of Responsibility\\ChainofResponsibility.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\BehavioralPatterns\\Chain of Responsibility\\ChainofResponsibility.cs",
+              "RelativeToolTip": "WebApplication1\\BehavioralPatterns\\Chain of Responsibility\\ChainofResponsibility.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAswIgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T07:51:46.945Z",
+              "WhenOpened": "2025-08-19T09:23:08.449Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TemplateMethod.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\BehavioralPatterns\\Template Method\\TemplateMethod.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\BehavioralPatterns\\Template Method\\TemplateMethod.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\BehavioralPatterns\\Template Method\\TemplateMethod.cs",
-              "RelativeToolTip": "WebApplication1\\BehavioralPatterns\\Template Method\\TemplateMethod.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAwwFcAAAAAAAAAAAAAAA==",
+              "Title": "ChainofResponsibilityController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\Controllers\\ChainofResponsibilityController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\ChainofResponsibilityController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\Controllers\\ChainofResponsibilityController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\ChainofResponsibilityController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAmwFAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T07:51:45.386Z",
+              "WhenOpened": "2025-08-19T09:22:51.624Z",
               "EditorCaption": ""
             }
           ]
