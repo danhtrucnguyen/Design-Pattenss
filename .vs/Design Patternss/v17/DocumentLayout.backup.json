@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|c:\\users\\admin\\source\\repos\\design patternss\\webapplication1\\controllers\\chainofresponsibilitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\chainofresponsibilitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|c:\\users\\admin\\source\\repos\\design patternss\\webapplication1\\behavioralpatterns\\command\\commandexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\behavioralpatterns\\command\\commandexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|c:\\users\\admin\\source\\repos\\design patternss\\webapplication1\\behavioralpatterns\\chain of responsibility\\chainofresponsibility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\behavioralpatterns\\chain of responsibility\\chainofresponsibility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|c:\\users\\admin\\source\\repos\\design patternss\\webapplication1\\behavioralpatterns\\command\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\behavioralpatterns\\command\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|c:\\users\\admin\\source\\repos\\design patternss\\webapplication1\\behavioralpatterns\\chain of responsibility\\chainofresponsibilityexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\behavioralpatterns\\chain of responsibility\\chainofresponsibilityexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|c:\\users\\admin\\source\\repos\\design patternss\\webapplication1\\controllers\\commandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\commandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,41 +30,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ChainofResponsibilityExample.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\BehavioralPatterns\\Chain of Responsibility\\ChainofResponsibilityExample.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\BehavioralPatterns\\Chain of Responsibility\\ChainofResponsibilityExample.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\BehavioralPatterns\\Chain of Responsibility\\ChainofResponsibilityExample.cs",
-              "RelativeToolTip": "WebApplication1\\BehavioralPatterns\\Chain of Responsibility\\ChainofResponsibilityExample.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAswDYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "CommandExample.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\BehavioralPatterns\\Command\\CommandExample.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\BehavioralPatterns\\Command\\CommandExample.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\BehavioralPatterns\\Command\\CommandExample.cs",
+              "RelativeToolTip": "WebApplication1\\BehavioralPatterns\\Command\\CommandExample.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAswHEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T09:23:09.65Z",
+              "WhenOpened": "2025-08-20T02:24:15.595Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ChainofResponsibility.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\BehavioralPatterns\\Chain of Responsibility\\ChainofResponsibility.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\BehavioralPatterns\\Chain of Responsibility\\ChainofResponsibility.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\BehavioralPatterns\\Chain of Responsibility\\ChainofResponsibility.cs",
-              "RelativeToolTip": "WebApplication1\\BehavioralPatterns\\Chain of Responsibility\\ChainofResponsibility.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAswIgAAAAAAAAAAAAAAA==",
+              "Title": "Command.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\BehavioralPatterns\\Command\\Command.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\BehavioralPatterns\\Command\\Command.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\BehavioralPatterns\\Command\\Command.cs",
+              "RelativeToolTip": "WebApplication1\\BehavioralPatterns\\Command\\Command.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAswJcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T09:23:08.449Z",
+              "WhenOpened": "2025-08-20T02:24:13.938Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ChainofResponsibilityController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\Controllers\\ChainofResponsibilityController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\ChainofResponsibilityController.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\Controllers\\ChainofResponsibilityController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\ChainofResponsibilityController.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAmwFAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "CommandController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\Controllers\\CommandController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\CommandController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\Controllers\\CommandController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\CommandController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T09:22:51.624Z",
+              "WhenOpened": "2025-08-20T02:24:06.855Z",
               "EditorCaption": ""
             }
           ]

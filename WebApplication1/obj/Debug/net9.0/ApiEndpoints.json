@@ -130,6 +130,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "WebApplication1.Controllers.CommandController",
+    "Method": "Demo",
+    "RelativePath": "api/Command/demo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication1.Controllers.CommandController",
+    "Method": "Run",
+    "RelativePath": "api/Command/run",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jobs",
+        "Type": "System.Collections.Generic.List\u00601[[WebApplication1.BehavioralPatterns.Command.CommandJobDto, WebApplication1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebApplication1.Controllers.CompositeController",
     "Method": "CalculatePrice",
     "RelativePath": "api/Composite/calculate",
