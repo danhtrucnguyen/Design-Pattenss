@@ -312,6 +312,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "WebApplication1.Controllers.IteratorController",
+    "Method": "Demo",
+    "RelativePath": "api/Iterator/demo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication1.Controllers.IteratorController",
+    "Method": "Run",
+    "RelativePath": "api/Iterator/run",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jobs",
+        "Type": "System.Collections.Generic.List\u00601[[WebApplication1.BehavioralPatterns.Iterator.IteratorJobDto, WebApplication1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebApplication1.Controllers.PrototypeController",
     "Method": "Clone",
     "RelativePath": "api/Prototype/clone",
