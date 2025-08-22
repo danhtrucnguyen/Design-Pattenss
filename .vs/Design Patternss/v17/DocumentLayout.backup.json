@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|c:\\users\\admin\\source\\repos\\design patternss\\webapplication1\\controllers\\strategycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\strategycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|c:\\users\\admin\\source\\repos\\design patternss\\webapplication1\\controllers\\visitorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\visitorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|c:\\users\\admin\\source\\repos\\design patternss\\webapplication1\\behavioralpatterns\\strategy\\strategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\behavioralpatterns\\strategy\\strategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|c:\\users\\admin\\source\\repos\\design patternss\\webapplication1\\behavioralpatterns\\visitor\\visitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\behavioralpatterns\\visitor\\visitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|c:\\users\\admin\\source\\repos\\design patternss\\webapplication1\\behavioralpatterns\\strategy\\strategyexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\behavioralpatterns\\strategy\\strategyexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|c:\\users\\admin\\source\\repos\\design patternss\\webapplication1\\behavioralpatterns\\visitor\\visitorexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{481E6461-FFC1-4BDE-9776-1D72EB1E74EF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\behavioralpatterns\\visitor\\visitorexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,40 +31,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "StrategyController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\Controllers\\StrategyController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\StrategyController.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\Controllers\\StrategyController.cs*",
-              "RelativeToolTip": "WebApplication1\\Controllers\\StrategyController.cs*",
-              "ViewState": "AgIAABoAAAAAAAAAAAAswEAAAAAAAAAAAAAAAA==",
+              "Title": "VisitorController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\Controllers\\VisitorController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\VisitorController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\Controllers\\VisitorController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\VisitorController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAcwC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T06:52:07.285Z",
+              "WhenOpened": "2025-08-21T07:54:00.593Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "StrategyExample.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\BehavioralPatterns\\Strategy\\StrategyExample.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\BehavioralPatterns\\Strategy\\StrategyExample.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\BehavioralPatterns\\Strategy\\StrategyExample.cs*",
-              "RelativeToolTip": "WebApplication1\\BehavioralPatterns\\Strategy\\StrategyExample.cs*",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAxwEEAAAAAAAAAAAAAAA==",
+              "Title": "VisitorExample.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\BehavioralPatterns\\Visitor\\VisitorExample.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\BehavioralPatterns\\Visitor\\VisitorExample.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\BehavioralPatterns\\Visitor\\VisitorExample.cs",
+              "RelativeToolTip": "WebApplication1\\BehavioralPatterns\\Visitor\\VisitorExample.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAiwFoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T06:51:47.782Z",
+              "WhenOpened": "2025-08-21T07:53:11.891Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Strategy.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\BehavioralPatterns\\Strategy\\Strategy.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\BehavioralPatterns\\Strategy\\Strategy.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\BehavioralPatterns\\Strategy\\Strategy.cs*",
-              "RelativeToolTip": "WebApplication1\\BehavioralPatterns\\Strategy\\Strategy.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAAAAAAAAAAAAA==",
+              "Title": "Visitor.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\BehavioralPatterns\\Visitor\\Visitor.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\BehavioralPatterns\\Visitor\\Visitor.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Design Patternss\\WebApplication1\\BehavioralPatterns\\Visitor\\Visitor.cs",
+              "RelativeToolTip": "WebApplication1\\BehavioralPatterns\\Visitor\\Visitor.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAA0wJQAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T06:51:46.245Z",
+              "WhenOpened": "2025-08-21T07:53:10.312Z",
               "EditorCaption": ""
             }
           ]
