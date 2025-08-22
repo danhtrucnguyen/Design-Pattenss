@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace WebApplication1.StructuralPatterns.Facade
 {
-    // ----- Contracts -----
+    //Contracts
     public sealed record OrderLine(string Sku, int Quantity, decimal UnitPrice)
     {
         public decimal Subtotal => checked(Quantity * UnitPrice);
@@ -47,7 +47,7 @@ namespace WebApplication1.StructuralPatterns.Facade
         void SendEmail(string to, string subject, string body);
     }
 
-    // ----- Facade -----
+    //Facade
     public sealed class CheckoutFacade
     {
         private readonly IInventoryService _inventory;
@@ -73,11 +73,11 @@ namespace WebApplication1.StructuralPatterns.Facade
             if (req.Lines is null || req.Lines.Count == 0)
                 return new(false, null, null, "Cart is empty");
 
-            // 1) Reserve inventory
+            //Reserve inventory
             if (!_inventory.Reserve(req.Lines))
                 return new(false, null, null, "Out of stock");
 
-            // 2) Charge payment
+            //Charge payment
             var amount = req.Lines.Sum(l =>
             {
                 if (l.Quantity <= 0) throw new ArgumentOutOfRangeException(nameof(l.Quantity));
@@ -92,7 +92,7 @@ namespace WebApplication1.StructuralPatterns.Facade
             if (!payRes.Success)
                 return new(false, null, null, $"Payment failed: {payRes.Message}");
 
-            // 3) Shipment
+            //Shipment
             var tracking = _shipping.CreateShipment(req.ShipTo);
 
             // 4) Notify (best effort)
@@ -103,13 +103,13 @@ namespace WebApplication1.StructuralPatterns.Facade
             }
             catch { }
 
-            // 5) Result
+            //Result
             var orderId = Guid.NewGuid().ToString("N").ToUpperInvariant();
             return new(true, orderId, tracking, $"Order placed via {payRes.Provider}");
         }
     }
 
-    // ---- Fake implementations for demo ----
+
     public sealed class MemoryInventory : IInventoryService
     {
         private readonly Dictionary<string, int> _stock;

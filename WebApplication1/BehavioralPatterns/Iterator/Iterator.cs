@@ -29,7 +29,7 @@ namespace WebApplication1.BehavioralPatterns.Iterator
     public interface IProductIterator
     {
         bool HasNext();
-        Product Next();     // ném nếu hết
+        Product Next();     
         void Reset();
     }
 
@@ -53,8 +53,7 @@ namespace WebApplication1.BehavioralPatterns.Iterator
     {
         private readonly List<Product> _items;
         private readonly ProductFilter _filter;
-        private int _index = -1; // con trỏ trước phần tử kế
-
+        private int _index = -1; 
         public FilteredProductIterator(List<Product> items, ProductFilter filter)
         { _items = items; _filter = filter; }
 

@@ -66,22 +66,20 @@ namespace WebApplication1.BehavioralPatterns.Visitor
         {
             var line = i.Qty * i.UnitPrice;
             Subtotal += line;
-            Shipping += i.Qty * 3m;                 // ship: 3/unit
-            Tax += Math.Round(line * 0.10m, 2);     // VAT 10% cho hàng vật lý
-        }
-
+            Shipping += i.Qty * 3m;                
+            Tax += Math.Round(line * 0.10m, 2);     
         public void Visit(DigitalItem i)
         {
             var line = i.Qty * i.UnitPrice;
             Subtotal += line;
-            // shipping 0; tax 0 cho đơn giản
+            
         }
 
         public void Visit(ServiceItem i)
         {
             var line = i.Hours * i.HourlyRate;
             Subtotal += line;
-            Tax += Math.Round(line * 0.05m, 2);     // service tax 5%
+            Tax += Math.Round(line * 0.05m, 2);    
         }
     }
 
@@ -112,7 +110,7 @@ namespace WebApplication1.BehavioralPatterns.Visitor
         }
     }
 
-    //Aggregate tiện ích
+    //Aggregate
     public sealed class CartAggregate
     {
         private readonly List<ICartElement> _items = new();

@@ -5,20 +5,20 @@ using System.Linq;
 
 namespace WebApplication1.BehavioralPatterns.Strategy
 {
-    // ===== Domain =====
+    //Domain
     public sealed record OrderItem(string Sku, int Qty, decimal UnitPrice)
     {
         public decimal Line => checked(Qty * UnitPrice);
     }
 
-    // ===== Strategy contract =====
+    //Strategy contract
     public interface IDiscountStrategy
     {
         string Name { get; }
         decimal GetDiscount(IReadOnlyList<OrderItem> items, decimal subtotal);
     }
 
-    // ===== Concrete Strategies =====
+    //Concrete Strategies
     public sealed class NoDiscountStrategy : IDiscountStrategy
     {
         public string Name => "NONE";
@@ -61,7 +61,7 @@ namespace WebApplication1.BehavioralPatterns.Strategy
         }
     }
 
-    // ===== Context =====
+    //Context
     public sealed class PriceCalculator
     {
         private readonly IDiscountStrategy _strategy;
@@ -72,7 +72,7 @@ namespace WebApplication1.BehavioralPatterns.Strategy
             if (items is null || items.Count == 0)
                 throw new InvalidOperationException("Items required");
 
-            // Validate nhanh
+            // Validate
             foreach (var it in items)
             {
                 if (it.Qty <= 0) throw new ArgumentOutOfRangeException(nameof(it.Qty));

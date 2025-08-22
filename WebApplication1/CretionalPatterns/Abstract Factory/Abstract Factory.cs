@@ -59,7 +59,7 @@ namespace WebApplication1.CretionalPatterns.Abstract_Factory
         public IReceiptFormatter CreateReceiptFormatter() => new VisaReceiptFormatter();
     }
 
-    // ===== PayPal concrete products =====
+    //PayPal concrete products
     public sealed class PaypalProcessor : IPaymentProcessor
     {
         public string Name => "PAYPAL";
@@ -88,13 +88,13 @@ namespace WebApplication1.CretionalPatterns.Abstract_Factory
         public IReceiptFormatter CreateReceiptFormatter() => new PaypalReceiptFormatter();
     }
 
-    // ===== Client =====
+    //Client
     public sealed class CheckoutService
     {
         private readonly IPaymentSuiteFactory _factory;
         public CheckoutService(IPaymentSuiteFactory factory) => _factory = factory;
 
-        // API-friendly detail: trả về đủ thông tin
+        // API-friendly detail
         public (bool FraudBlocked, PaymentResult? Result, string Receipt) Process(PaymentRequest req)
         {
             var fraud = _factory.CreateFraudChecker();

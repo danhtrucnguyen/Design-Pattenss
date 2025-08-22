@@ -5,15 +5,12 @@ using System.Threading;
 
 namespace WebApplication1.StructuralPatterns.Proxy
 {
-    // ----- Hợp đồng kho hàng -----
     public interface IInventory
     {
         int GetStock(string sku);
         void AddStock(string sku, int qty);
-        bool Reserve(string sku, int qty); // true nếu giữ hàng thành công
-    }
+        bool Reserve(string sku, int qty); 
 
-    // ----- Đối tượng thật (giả lập remote/IO tốn kém) -----
     public sealed class RealInventory : IInventory
     {
         private readonly Dictionary<string, int> _stock = new(StringComparer.OrdinalIgnoreCase);
@@ -53,7 +50,6 @@ namespace WebApplication1.StructuralPatterns.Proxy
         }
     }
 
-    // ----- Virtual/Lazy Proxy: chỉ tạo inner khi cần -----
     public sealed class LazyInventoryProxy : IInventory
     {
         private readonly Func<IInventory> _factory;
@@ -80,11 +76,10 @@ namespace WebApplication1.StructuralPatterns.Proxy
         public void AddStock(string sku, int qty) => Inner.AddStock(sku, qty);
         public bool Reserve(string sku, int qty) => Inner.Reserve(sku, qty);
 
-        // tiện đọc RealInventory nếu cần
         public RealInventory? TryGetReal() => _inner as RealInventory;
     }
 
-    // ----- Protection Proxy: kiểm soát quyền ghi -----
+    //Protection Proxy
     public sealed class ProtectionInventoryProxy : IInventory
     {
         private readonly IInventory _inner;
@@ -111,7 +106,7 @@ namespace WebApplication1.StructuralPatterns.Proxy
         }
     }
 
-    // ----- Caching Proxy: cache GetStock theo TTL; invalidates khi ghi -----
+    //Caching Proxy
     public sealed class CachingInventoryProxy : IInventory
     {
         private readonly IInventory _inner;

@@ -5,13 +5,13 @@ using System.Threading;
 
 namespace WebApplication1.StructuralPatterns.Flyweight
 {
-    // Intrinsic state (bất biến, có thể chia sẻ)
+    // Intrinsic state
     public sealed class ProductShared
     {
         public string Sku { get; }
         public string Name { get; }
         public string Brand { get; }
-        public byte[] ImageBytes { get; } // giả lập dữ liệu nặng
+        public byte[] ImageBytes { get; } 
         public IReadOnlyDictionary<string, string> Attributes { get; }
 
         public ProductShared(string sku, string name, string brand, byte[] imageBytes,
@@ -25,7 +25,7 @@ namespace WebApplication1.StructuralPatterns.Flyweight
         }
     }
 
-    // Extrinsic state (truyền lúc dùng)
+    // Extrinsic state
     public sealed record ProductViewContext(
         string StoreId, decimal Price, int Stock, string Variant, int GridX, int GridY
     );
@@ -53,7 +53,7 @@ namespace WebApplication1.StructuralPatterns.Flyweight
         }
     }
 
-    // Factory (thread-safe, đảm bảo chỉ tạo 1 lần/sku)
+    // Factory
     public sealed class FlyweightFactory
     {
         private readonly ConcurrentDictionary<string, Lazy<IProductFlyweight>> _cache =

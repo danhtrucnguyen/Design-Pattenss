@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace WebApplication1.BehavioralPatterns.Interpreter
 {
-    // Context: giữ chuỗi Input còn lại và Output đã tính.
+    // Context
     public sealed class RomanContext
     {
         public string Input { get; set; }
@@ -11,7 +11,7 @@ namespace WebApplication1.BehavioralPatterns.Interpreter
         public RomanContext(string input) { Input = input ?? ""; }
     }
 
-    // AbstractExpression: khuôn mẫu giải thích cho một bậc (nghìn/trăm/chục/đơn vị)
+    // AbstractExpression
     public abstract class RomanExpression
     {
         public void Interpret(RomanContext ctx)

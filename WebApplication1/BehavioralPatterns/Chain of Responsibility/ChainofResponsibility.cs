@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace WebApplication1.BehavioralPatterns.ChainEcom
 {
-    // ===== Domain =====
+    //Domain
     public sealed class ItemDto { public string Sku { get; set; } = ""; public int Qty { get; set; } public int Stock { get; set; } }
     public sealed class OrderDto
     {
@@ -19,14 +19,14 @@ namespace WebApplication1.BehavioralPatterns.ChainEcom
 
     public sealed record ValidationResult(bool Ok, string By, string Message, List<string> Trail);
 
-    // ===== Handler contract =====
+    //Handler contract
     public interface IOrderHandler
     {
         IOrderHandler SetNext(IOrderHandler next);
         ValidationResult Handle(OrderDto order);
     }
 
-    // ===== Base handler =====
+    //Base handler
     public abstract class ValidatorBase : IOrderHandler
     {
         private IOrderHandler? _next;
@@ -58,8 +58,8 @@ namespace WebApplication1.BehavioralPatterns.ChainEcom
             => new(true, by, "OK", new List<string>());
     }
 
-    // ===== Concrete handlers =====
-    // 1) Cart not empty
+    //Concrete handlers
+    //Cart not empty
     public sealed class CartNotEmptyHandler : ValidatorBase
     {
         protected override string Name => "CartNotEmpty";
@@ -67,7 +67,7 @@ namespace WebApplication1.BehavioralPatterns.ChainEcom
             => (o.Items != null && o.Items.Count > 0) ? Pass(Name) : Fail(Name, "Cart is empty");
     }
 
-    // 2) Stock check
+    //Stock check
     public sealed class StockHandler : ValidatorBase
     {
         protected override string Name => "Stock";
@@ -82,7 +82,7 @@ namespace WebApplication1.BehavioralPatterns.ChainEcom
         }
     }
 
-    // 3) Country supported
+    //Country supported
     public sealed class CountryHandler : ValidatorBase
     {
         protected override string Name => "Country";
@@ -91,7 +91,7 @@ namespace WebApplication1.BehavioralPatterns.ChainEcom
             => Supported.Contains((o.Country ?? "").Trim()) ? Pass(Name) : Fail(Name, $"Unsupported country: {o.Country}");
     }
 
-    // 4) Payment limits
+    //Payment limits
     public sealed class PaymentLimitHandler : ValidatorBase
     {
         protected override string Name => "PaymentLimit";
@@ -104,7 +104,7 @@ namespace WebApplication1.BehavioralPatterns.ChainEcom
         }
     }
 
-    // 5) Simple fraud rule
+    //Simple fraud rule
     public sealed class FraudHandler : ValidatorBase
     {
         protected override string Name => "Fraud";
@@ -119,7 +119,7 @@ namespace WebApplication1.BehavioralPatterns.ChainEcom
         }
     }
 
-    // Helper: build standard chain
+    // Helper
     public static class OrderValidationChains
     {
         public static IOrderHandler Standard()

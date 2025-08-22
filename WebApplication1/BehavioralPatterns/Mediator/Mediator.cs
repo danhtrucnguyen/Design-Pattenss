@@ -149,7 +149,7 @@ namespace WebApplication1.BehavioralPatterns.Mediator
             _notes.Clear();
             _subtotal = Cart.Subtotal;
 
-            // Discount: phần trăm, giới hạn tối đa 50
+            // Discount
             _discount = 0m;
             if (!string.IsNullOrEmpty(Coupon.Code) && Coupon.Percent > 0)
                 _discount = Math.Min(Math.Round(_subtotal * Coupon.Percent, 2, MidpointRounding.AwayFromZero), 50m);

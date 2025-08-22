@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace WebApplication1.BehavioralPatterns.State
 {
-    // ===== Context =====
+    //Context
     public sealed class Order
     {
         private IOrderState _state;
@@ -15,10 +15,9 @@ namespace WebApplication1.BehavioralPatterns.State
         public Order(string id)
         {
             Id = id ?? Guid.NewGuid().ToString("N");
-            _state = new CartState(); // trạng thái khởi đầu
+            _state = new CartState(); 
         }
 
-        // Các thao tác public -> ủy quyền cho State
         public void Add(decimal amount, int qty, List<string> log) => _state.Add(this, amount, qty, log);
         public void Pay(List<string> log) => _state.Pay(this, log);
         public void Ship(List<string> log) => _state.Ship(this, log);
@@ -30,7 +29,7 @@ namespace WebApplication1.BehavioralPatterns.State
         internal void SetState(IOrderState s) => _state = s ?? _state;
     }
 
-    // ===== State contract =====
+    //State contract
     public interface IOrderState
     {
         string Name { get; }
@@ -41,7 +40,7 @@ namespace WebApplication1.BehavioralPatterns.State
         void Cancel(Order o, List<string> log);
     }
 
-    // ===== Concrete States =====
+    //Concrete States
     public sealed class CartState : IOrderState
     {
         public string Name => "Cart";

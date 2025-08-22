@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace WebApplication1.StructuralPatterns.Bridge
 {
-    // ====== Content ======
+    //Content
     public sealed class ReportContent
     {
         public string Title { get; }
@@ -18,7 +18,7 @@ namespace WebApplication1.StructuralPatterns.Bridge
         }
     }
 
-    // ====== Implementations (Renderers) ======
+    //Implementations (Renderers)
     public interface IReportRenderer
     {
         string Render(ReportContent content);
@@ -42,7 +42,7 @@ namespace WebApplication1.StructuralPatterns.Bridge
         }
     }
 
-    // ====== Abstraction ======
+    //Abstraction
     public abstract class Report
     {
         private IReportRenderer _renderer;
@@ -62,7 +62,7 @@ namespace WebApplication1.StructuralPatterns.Bridge
             => v.ToString("C", CultureInfo.CreateSpecificCulture(culture));
     }
 
-    // ====== Refined Abstractions ======
+    //Refined Abstractions
     public sealed class SalesReport : Report
     {
         private readonly IReadOnlyList<decimal> _amounts;

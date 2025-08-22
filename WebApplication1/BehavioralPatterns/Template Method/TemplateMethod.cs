@@ -5,11 +5,6 @@ using System.Collections.Generic;
 namespace WebApplication1.BehavioralPatterns.TemplateMethod
 {
 
-    // AbstractClass:  BeverageMaker
-    // Primitive Ops:  Brew(), AddCondiments()
-    // Hooks:          WantCondiments(), WaterTempC
-    // ConcreteClass:  CoffeeMaker, TeaMaker
-
     public abstract class BeverageMaker
     {
         private readonly int? _overrideTempC;

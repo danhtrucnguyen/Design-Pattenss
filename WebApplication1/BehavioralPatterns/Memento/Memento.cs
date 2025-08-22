@@ -4,10 +4,6 @@ using System.Linq;
 
 namespace WebApplication1.BehavioralPatterns.Memento
 {
-    // Originator: Cart — có Save() tạo snapshot và Restore() để khôi phục.
-    // Memento:    CartSnapshot — trạng thái bất biến của Cart (items, coupon, discount).
-    // Caretaker:  CartHistory — giữ stack undo/redo, không can thiệp chi tiết Cart.
-
     //Originator
     public sealed class Cart
     {
